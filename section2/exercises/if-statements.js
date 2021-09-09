@@ -31,10 +31,10 @@ if (weather == 'sunny') {
   console.log('good to go!');
 }
 
-/* 
+/*
 YOU DO:
-Using the dogAge variable defined below, 
-determine if a dog is a puppy (2 or younger), 
+Using the dogAge variable defined below,
+determine if a dog is a puppy (2 or younger),
 an adult, or elderly (10 or older).
 
 Log to the console the appropriate age range
@@ -43,7 +43,13 @@ Log to the console the appropriate age range
 
 var dogAge = 3;
 // Write your conditional here
-
+if (dogAge <= 2) {
+  console.log("the dog is a puppy!");
+} else if (dogAge == 3) {
+  console.log("the dog is an adult!");
+} else if (dogAge >= 10) {
+  console.log("the dog is elderly!");
+}
 
 /*
 YOU DO:
@@ -65,8 +71,13 @@ When numQuarters = 3, program should log "I have enough money for a gumball"
 var numQuarters = 0;
 
 // Write your conditional here
-console.log("I have enough money for a gumball");
-console.log("I don't have enough money for a gumball");
+if (numQuarters == 0) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters == 1) {
+  console.log("I don't have enough money for a gumball");
+} else if (numQuarters >= 2) {
+  console.log("I have enough money for a gumball");
+}
 
 
 /*
@@ -86,11 +97,22 @@ var cupsOfFlour = 1;
 var hasSauce = true;
 
 // Write your conditional here
-
+if (cupsOfFlour == 1 && hasSauce) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour == 1 != hasSauce) {
+  console.log("I cannot make pizza");
+} else if (cupsOfFlour >= 2 && hasSauce) {
+  console.log("I can make pizza");
+}
 
 /*
-For the last two exercises, an ideal solution probably uses a logical operator. 
+For the last two exercises, an ideal solution probably uses a logical operator.
 Did yours? Do you know what a logical operator in JavaScript is? Google it to answer
 for yourself!
 
+ANSWER: My solution for the gumball did not include logical operators but my solution for
+ the pizza did. That being said, I did use >= to determine 2 or more numQuarters and 2 or more cupsOfFlour
+ so I didn't need a fourth line of code.
+ A logical operator is used to connect two or more boolean values/expressions via "AND", "OR", "NOT"
+ example: 1 cup of flour AND (&&) has sauce, or 1 cup of flour NOT has sauce
 */
