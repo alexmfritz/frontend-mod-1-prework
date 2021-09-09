@@ -19,11 +19,15 @@ console.log("The " + team + " are " + name + "'s favorite Quidditch team");
 var numberOfCreatures = 7;
 var creatures = "unicorns";
 
-console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
+console.log("My zoo has " + numberOfCreatures + " " + creatures + "!");
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
 
+//ANSWER: "My zoo has 7 unicorns!"
+//EXPLANATION: Because that's how concatenation works? Appropriately combined strings
+// with variables assoicated with both a number and another string to form a complete sentence.
+// including quotations just for the space between number 7 and unicorns.
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -31,6 +35,7 @@ console.log("My zoo has " + numberOfCreatures + " " + creatures + "!")
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
+console.log("The " + speedy + " jumped over the " + slowPoke);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -39,17 +44,21 @@ var slowPoke = "lazy brown dog";
 
 slowPoke = "tortoise";
 speedy = "hare";
-
+console.log("In a predictable result, the " + slowPoke + " beat the " + speedy + "!");
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
   // Then, log out ONE sentence that incorporates all THREE variables.
+var bestFriend = "Ronald Weasley";
+var siblings = 5;
+var siblingCheck = true;
 
+console.log("It is " + siblingCheck + " that Harry Potter's best friend " + bestFriend + " has " + siblings + " siblings!");
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.

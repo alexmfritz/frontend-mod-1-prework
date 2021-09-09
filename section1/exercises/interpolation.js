@@ -22,7 +22,12 @@ var creatures = "unicorns";
 console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 
 // YOU DO: What data type will be logged to the console as a result of line 22? Explain.
-// Your answer and explanation here: 
+// Your answer and explanation here:
+
+//ANSWER: "My zoo has 7 unicorns!" Unlike concatenation, no operator is needed (ex: +)
+// in order to add the variables data to the string. Instead you use ${variableName}
+// and it will automatically plug that variable's value into it. The other major difference
+// is that you use backticks in Interpolation instead of quotations
 
 
 // YOU DO:
@@ -31,6 +36,7 @@ console.log( `My zoo has ${numberOfCreatures} ${creatures}!`);
 var speedy = "quick red fox";
 var slowPoke = "lazy brown dog";
 
+console.log(`The ${speedy} jumped over the ${slowPoke}`);
 
 // YOU DO:
 // Write code that combines the variables below into a string that
@@ -40,16 +46,22 @@ var slowPoke = "lazy brown dog";
 slowPoke = "tortoise";
 speedy = "hare";
 
+console.log(`In a predictable result, the ${slowPoke} beat the ${speedy}!`);
+
 
 // YOU DO:
-// Declare three variables, name/content/data type of your choice. Think carefully about what 
+// Declare three variables, name/content/data type of your choice. Think carefully about what
   // you name the variables. Remember, the goal is to be concise but descriptive (it's a hard balance!)
-  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation. 
+  // Then, log out ONE sentence that incorporates all THREE variables uisng interpolation.
+var creatures = "Pokemon";
+var numberOfCreatures = 152;
+var checkCreatures = false;
 
+console.log(`True or ${checkCreatures}, in the original ${creatures} series, there were ${numberOfCreatures} catchable monsters in the game?`);
 
 //-------------------
 // FINAL CHECK
 //-------------------
 
-// Did you run this file in your terminal to make sure everything printed out to the console 
+// Did you run this file in your terminal to make sure everything printed out to the console
   // as you would expect? You should be doing this by now, and getting into the habit of it.
