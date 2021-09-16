@@ -37,6 +37,7 @@ var students = ["John Smith", "Jane Doe", "Harry Potter"];
 
     - Complicated answer: an object would also work here depending on what you wanted to do with the information.
       - ex:
+
 ```
 var studentInfo = {
   firstName = "John",
@@ -66,7 +67,7 @@ var packingList = {
     - I would use an object for this with key-value pairs for: firstName, lastName, program, cohort)
 
   * Ingredients and amount of each ingredient to bake a cake
-    - I would use an object for this because you are getting into really complicated data values that all vary depending on the ingredient.
+    - I would use an object for this because you are getting into really complicated data values that all vary in data type (String, Number, potentially Boolean) depending on the ingredient.
 
   * All my favorite restaurants
     - Probably just an array because all you need to do is collect the names of each restaurant. If you wanted to also store the type of food they serve AND your favorite dish at each, you could do an object instead.
