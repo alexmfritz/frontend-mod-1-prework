@@ -129,7 +129,7 @@ if (percentBatteryLeft < 15) { // the condition is checking if the battery has l
 else {
   console.log("I cannot call an uber"); // out of nested condition... if previous tests fail, user cannot call uber
 } // you can test the logical operator above by changing either var hasCharger=false OR chargerType="outlet", if either fail the test then it will not work and the user cannot call an uber
-}
+};
 
 
 // YOU DO - ANNOTATE: Above each line of your code for this if statement, create a comment.
