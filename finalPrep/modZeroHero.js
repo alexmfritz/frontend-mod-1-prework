@@ -1,7 +1,7 @@
 // Challenge - See if you can follow the instructions and complete the exercise in under 30 minutes!
 
 // Declare two variables - heroName AND specialAbility - set to strings
-var heroName = "The Crime Stopper";
+var heroName = "Crime Stopper";
 var specialAbility = "Fire blast!";
 // Declare two variables - greeting AND catchphrase
 //   greeting should be assigned to a string that uses concatenation to include the heroName
@@ -90,7 +90,7 @@ var scaryMonster = {
     state: "Seattle, WA",
     zip: 98133
   }
-};
+}
 
 // Create a new class called SuperHero
 // - Your class should have the following DYNAMIC values
@@ -119,7 +119,7 @@ class SuperHero {
   gainPower(x) {
     this.powerLevel += x;
   }
-};
+}
 
 // - Create the following class methods
 //   - sayName, should print the hero's name to the console
@@ -127,7 +127,7 @@ class SuperHero {
 //   - gainPower, should take an argument of a number and INCREASE the powerLevel by that number
 
 // - Create 2 instances of your SuperHero class
-var crimeStopper = new SuperHero("The Crime Stopper", specialAbility, 185);
+var crimeStopper = new SuperHero("Crime Stopper", specialAbility, 185);
 console.log(crimeStopper);
 crimeStopper.maximizeEnergy();
 crimeStopper.sayName();
