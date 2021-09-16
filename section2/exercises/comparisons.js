@@ -101,6 +101,7 @@ console.log(friends > siblings);
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
+
 // YOU DO: Explain.
 //The log result is comparing the two variable values, asking if var attendees assigned
 // value is NOT EQUAL TO the assigned value of var meals
@@ -142,7 +143,7 @@ console.log(lovesToPlay && age);
 // ANSWER: the log evaluated to "1". I believe this is because the AND logic operator determined
 // that lovesToPlay equaled true and age is an integer so it would knows to display the value of age,
 // whereas if the lovesToPlay was false, it would display false w/ no integer.
-//UPDATE: I tested this by changing var lovesToPlay = false and it correctly logged the finale line of code
+// UPDATE: I tested this by changing var lovesToPlay = false and it correctly logged the finale line of code
 // as false, not the integer of 1.
 
 //-------------------

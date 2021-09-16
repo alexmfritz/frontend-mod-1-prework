@@ -16,7 +16,6 @@ Make sure to run the file with node in your command line.
 function printName() {
   console.log("Severus Snape");
 };
-
 printName();
 printName();
 printName();
@@ -29,7 +28,7 @@ printName();
 
 function sayHello() {
   console.log('Oh, Hello!');
-}
+};
 sayHello();
 sayHello();
 
@@ -43,7 +42,7 @@ sayHello();
 
 function greetMe(name) {
   console.log(name);
-}
+};
 greetMe('Harry');
 greetMe('Hermione');
 greetMe('Ronald');
@@ -54,7 +53,7 @@ greetMe('Ronald');
 
 function sum(numOne, numTwo) {
   console.log(numOne + numTwo);
-}
+};
 sum(2, 5);
 sum(2005, 983741);
 sum(-94, 85);
@@ -64,7 +63,7 @@ sum(-94, 85);
 // the end result might be "Oscar and Ruck are BFFS".  Then, call that function.
 function bestFriends(friendOne, friendTwo) {
   console.log(friendOne + ' and ' + friendTwo + ' are BFFS');
-}
+};
 bestFriends('Oscar', 'Ruck');
 
 //-------------------
@@ -89,6 +88,4 @@ in the name of the argument for the bestFriends function.
 
 Leading into Mod0 I spoke with Kaitlyn a bit about proper naming and she pointed out I used both kebob-case and camelCase on a
 project I was working on, encouraged I was consistent with one, and also provided a link to read up on BEM naming convention.
-
-
 */

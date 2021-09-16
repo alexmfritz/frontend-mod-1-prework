@@ -17,7 +17,7 @@ var weather = 'snowy';
 // var weather = 'rainy';
 // var weather = 'sunny';
 // While working through this example, I would toggle which variable declaration is
-  // commented in/out and run the program in node several times to observe the output.
+// commented in/out and run the program in node several times to observe the output.
 
 if (weather == 'sunny') {
   console.log('sunscreen');
@@ -29,7 +29,7 @@ if (weather == 'sunny') {
   console.log('yak traks');
 } else{
   console.log('good to go!');
-}
+};
 
 /*
 YOU DO:
@@ -49,7 +49,7 @@ if (dogAge <= 2) {
   console.log("the dog is an adult!");
 } else if (dogAge >= 10) {
   console.log("the dog is elderly!");
-}
+};
 
 /*
 YOU DO:
@@ -77,7 +77,7 @@ if (numQuarters == 0) {
   console.log("I don't have enough money for a gumball");
 } else if (numQuarters >= 2) {
   console.log("I have enough money for a gumball");
-}
+};
 
 
 /*
@@ -103,7 +103,7 @@ if (cupsOfFlour == 1 && hasSauce) {
   console.log("I cannot make pizza");
 } else if (cupsOfFlour >= 2 && hasSauce) {
   console.log("I can make pizza");
-}
+};
 
 /*
 For the last two exercises, an ideal solution probably uses a logical operator.
