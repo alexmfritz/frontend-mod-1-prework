@@ -40,6 +40,7 @@ ELSE IF TEMP < 50 && PRECIP = LOW %
 
 * If you want to check that TWO or more conditions are met, ideally the developer would use a LOGICAL operator (AND, OR, NOT). Logical operators allow for you to say things like:
 
+```
 if conditionOne && (AND) conditionTwo
   then execute this
 else if conditionOne || (OR) conditionTwo
@@ -48,6 +49,7 @@ else if conditionOne != (NOT) conditionTwo
   then finally execute this
 else (if no conditions above are met)
   only perform this
+```
 
 6. What questions do you still have about `if` statements and/or functions?
 
