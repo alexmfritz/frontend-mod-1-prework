@@ -25,7 +25,7 @@ therefore `animals.name = "Susie"`
 4. For each set of data, would an array or object be better to store it? Explain your choice.
 
   * List of all of the students in class
-    - Easy/better answer: an array because all you are collecting is their name.
+    - I would use an array because all you are collecting is their name.
       - ex:
 ```
 var studentNames = ["John", "Susie", "Harry"];
@@ -34,17 +34,6 @@ or
 ```
 var students = ["John Smith", "Jane Doe", "Harry Potter"];
 ```
-
-    - Complicated answer: an object would also work here depending on what you wanted to do with the information.
-      - ex:
-
-```
-var studentInfo = {
-  firstName = "John",
-  lastName = "Smith"
-};
-```
-and you could reassign values to `studentInfo.firstName = "Harry"` and `studentInfo.lastName = "Potter"` if you wanted to.
 
   * List of states and their capitals
     - My answer is the same as student names. What do you want to do to the data? An array would be easier, but if you wanted to run complicated functions/methods on the "capital, state" format and store more information regarding the state, than an object would be better.
