@@ -11,29 +11,34 @@
 3. What is an Object, and how is it different from an Array in Javascript?
 
 - Arrays are used for storing an ordered list of data, each data value is called an element, and that element can only be accessed by a number or the index of the item.
-  * ex: ```var animals = ["zebra", "elephant", "cat"]``` therefore ```animals[2] = cat```
+  * ex: `var animals = ["zebra", "elephant", "cat"]` therefore `animals[2] = cat`
 - Objects are used for storing a more complex collection of data, such as **key-value pairs**, but they can be accessed by Strings opposed to numbers.
-  * ex: ``` var octopusInfo = {
-              name: "Susie",
-              legs: 8
-            }; ```
-  therefore ``` animals.name = "Susie" ```
+  * ex:
+```var octopusInfo = {
+    name: "Susie",
+    legs: 8
+   };
+```
+  therefore `animals.name = "Susie"`
 
 4. For each set of data, would an array or object be better to store it? Explain your choice.
 
   * List of all of the students in class
     - Easy/better answer: an array because all you are collecting is their name.
       - ex:
-`var studentNames = ["John", "Susie", "Harry"]`
+```var studentNames = ["John", "Susie", "Harry"];
+```
 or
-`var students = ["John Smith", "Jane Doe", "Harry Potter"]`
+```var students = ["John Smith", "Jane Doe", "Harry Potter"];
+```
     - Complicated answer: an object would also work here depending on what you wanted to do with the information.
       - ex:
-`var studentInfo = {
+```var studentInfo = {
     firstName = "John",
     lastName = "Smith"
- };`
-        and you could reassign values to ```studentInfo.firstName = "Harry"``` and ```studentInfo.lastName = "Potter"``` if you wanted to.
+ };
+ ```
+        and you could reassign values to `studentInfo.firstName = "Harry"` and `studentInfo.lastName = "Potter"` if you wanted to.
 
   * List of states and their capitals
     - My answer is the same as student names. What do you want to do to the data? An array would be easier, but if you wanted to run complicated functions/methods on the "capital, state" format and store more information regarding the state, than an object would be better.
@@ -41,11 +46,12 @@ or
   * List of things to pack for vacation
     - I would choose an object for this because within the object you could have many key-value pairs with the key representing a category like "toiletries", "shirts", "pants", and the values for each pair containing an array of items that fit that category.
     - ex:
-` var packingList = {
+```var packingList = {
     toiletries: ["toothbrush", "toothpaste", "razor", "shaving cream", "face wash", "ibuprofen", "contacts"],
     pants: ["black jeans", "blue slacks", "cargo shorts", "basketball shorts", "swim trunks"],
     shirts: ["yellow polo", "blue tank top", "flamingo shirt", "white button-up"]
-}`
+    };
+```
 
   * Names of all the Instagram accounts I follow
     - I honestly think using array for this would be just find because you would just use the title of all the accounts in a String in the array and then you have a huge list of array.methods() that you could use to alphabetize, etc.
@@ -62,7 +68,7 @@ or
 5. In this section, we talked about an `transaction item object`. It has keys that represent different properties an bank transaction would have, and values that store the data. In a banking app, this data would eventually be displayed in the browser for the user. Think of another Object in a web application that you use frequently. What is it? What keys might be on it? What are example values?
   - A application I have used frequently in the **past** would be Tinder.
   - ex:
-`var tinderProfile = {
+```var tinderProfile = {
     profilePhotos = [<file>, <file>, <file>],
     firstName: "John",
     location: "lives in <cityName>",
@@ -71,7 +77,8 @@ or
     bio: "ENTER LONG STRING OF CLICHE TEXT HERE",
     hobbyKeyWords: ["Climbing", "Coffee", "Fishing", "Yoga", "Music"]
     spotify: [ARRAY OF MUSIC],
- };`
+   };
+```
 
 6. What questions do you still have about classes and/or Objects?
   - Is there a purpose for declaring a skeleton class with object literals without having anything inside of the class? In the classProperties.js assignment, the hardest part was Part 1 because I was confused around creating the skeleton, defining literals, but not having a purpose for it. Part 2 and 3 was easier once I had properties and parameters/arguments to go along with it.
